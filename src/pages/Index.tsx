@@ -1,0 +1,31 @@
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Education from "@/components/Education";
+import Training from "@/components/Training";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Certifications from "@/components/Certifications";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+      <Education />
+      <Training />
+      <Skills />
+        <Projects />
+        <Certifications />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
